@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Lifestyle Store</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span>Signup</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="text-warning">Login to make a purchase</h3>
+                </div>
+                <div class="panel-body">
+                    <!--<h3 class="text-warning">Login to make a purchase</h3>-->
+                    <form action="check_login_farmer" method="POST">
+                        <div class="form-group">
+                            <label for="user_name">User Name</label>
+                            <input type="text" class="form-control input-lg" name="email"
+                                placeholder="Enter registered user name">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control input-lg" name="password"
+                                placeholder="Enter password">
+                        </div>
+                        <input type="submit" value="Submit" class="btn btn-primary">
+                    </form>
+                </div>
+                <div class="panel-footer">
+                    <h4>Don't have an account? Register</h4>
+                </div>
+            </div>
+        </div>
+    </body>
+        <footer class="navbar navbar-fixed-bottom navbar-inverse">
+            <div class="container">
+                <center>
+                    <p>Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p>
+                </center>
+            </div>
+        </footer>
+
+</html>
+
+
+
+
+</body>
+
+</html>
