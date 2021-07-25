@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Adding Bootstrap CDN from getbootstrap.com. Here we are using v3.4.1-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifestyle Store</title>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="inner-header">
+            <div class="logo">
+                <a href="#" target="_blank">Lifestyle Store</a>
+            </div>
+            <!--End to .logo-->
+            <div class="header-link">
+                <a href="#" target="_blank">Login</a>
+            </div>
+            <div class="header-link">
+                <a href="#" target="_blank">SignUp</a>
+            </div>
+        </div>
+    </div>
+    <!--Now header is completed let's write HTML code for content below-->
+    <div class="content">
+        <div class="banner-image">
+            <!--Here banner-image contains the background image present in the webpage-->
+            <div class="inner-banner-image">
+                <div class="banner-content">
+                    <!--Here banner-content contains the content above the background image-->
+                    <h1>We sell Lifestyle</h1>
+                    <p>Flat 40% OFF on premium brands</p>
+                    <a href="#" target="_blank" class="button">Shop Now</a>
+                </div>
+                <!--End to banner-content-->
+            </div>
+        </div>
+    </div>
+    <!--Now let's check out what we have so far Press on Go Live-->
+    <!--Now let's go on and write HTML code for our items content-->
+    <div class="container">
+        <div class="row text-center">
+            <!--By using only HTML and CSS the items seem crowded when the size of the screen is less. So, the webpage is going to crowded in mobile phones. So use bootstrap classes and make your webpage mobile-friendly too-->
+            <!--As we are adding the col classes we can remove the items class-->
+            <!--Here col-xs-12 means that if the screen is extremely small, then take up all 12 columns of the grid to represent the thumbnail
+            as col-xs-12 and col-sm is not specified then col-sm-12 is applied
+            and col-md-4 means that if the screen is medium in size then occupy only 4 columns of the grid
+            as col-lg is not specified col-lg-4 is applied
+            -->
+            <div class="col-xs-12 col-md-4">
+
+                <a>
+                    <img src="assets/camera.jpg" alt="Camera" class="thumbnail">
+                    <div class="caption">
+                        <h2>Cameras</h2>
+                        <p>Choose the best cameras available in the world</p>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-xs-12 col-md-4">
+
+                <a>
+                    <img src="assets/watch.jpg" alt="Watch" class="thumbnail">
+                    <div class="caption">
+                        <h2>Watch</h2>
+                        <p>Original watches from best brands</p>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-xs-12 col-md-4">
+
+                <a>
+                    <img src="assets/shirt.jpg" alt="Shirt" class="thumbnail">
+                    <div class="caption">
+                        <h2>Shirts</h2>
+                        <p>Our exquisite collection of shirts</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <!--End of conatiner class-->
+    <!--Now lets check the web page again. Save your code. Go to Chrome and reload the website. All the saved changes will be visible-->
+    <!--Now we see our items photos and the captions and the content-->
+    <!--Now let's deal with the last part of HTML code THE FOOTER-->
+    <div class="footer">
+        <div class="container">
+            <p style="text-align: center;">
+                Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000
+            </p>
+        </div>
+    </div>
+</body>
+<!--Whoohoo we have completed the HTML code. Laid the foundation for our beautiful webpage. Now lets see or revise the classes we have used here-->
+
+</html>
